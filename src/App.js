@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import EachBlogDetails from "./Components/BlogsComponents/EachBlogDetails";
 import Community from "./Components/Community/Community";
 import Entertainment from "./Components/Entertainment/Entertainment";
 import Home from "./Components/Home/Home";
@@ -18,6 +19,10 @@ function App() {
           element={<Entertainment></Entertainment>}
         ></Route>
         <Route path="/community" element={<Community></Community>}></Route>
+        <Route
+          path="/:id"
+          element={<EachBlogDetails></EachBlogDetails>}
+        ></Route>
       </Routes>
     </div>
   );

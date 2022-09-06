@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import EachBlogView from "../BlogsComponents/EachBlogView";
 
 const Community = () => {
+  const [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    fetch("FakeBlogs/FakeBlogs.json")
+      .then((res) => res.json())
+      .then((data) =>
+        setBlogs(data.filter((item) => item.category === "Community"))
+      );
+  }, []);
+
   return (
-    <div>
-      <p>hii from Community</p>
-    </div>
+    <section>
+      <p className="text-center text-2xl my-8">Community Blogs</p>
+      <div className="my-4 mx-10 flex flex-col gap-3">
+        {blogs.map((item) => (
+          <EachBlogView key={item._id} item={item}></EachBlogView>
+        ))}
+      </div>
+    </section>
   );
 };
 
