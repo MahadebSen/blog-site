@@ -1,0 +1,137 @@
+[
+  {
+    "_id": "tn101",
+    "category": "Technology",
+    "title": "React Vs Angular 2022: A Deep Dive into Top Front-end Frameworks",
+    "creator": "Paridhi Wadhwani",
+    "occupation": "Technical Writer",
+    "date": "July 18 2022",
+    "content": "A comprehensive piece of comparison between the two most popular front-end technologies Angular Vs React. Let’s have in-detail understanding about their differences based on factors like popularity, performance, learning curve, server-side rendering, and more. In this side by side comparison, I have covered everything related to React and Angular and I have also covered the perspective on which is better React or Angular? how is React differs from Angular and in-between React vs Angular which JS is more suitable for your front end development project. Let’s dig in React vs Angular 2022. With the presence of a comprehensive list of super resourceful and capable options in the industry, selecting the right javascript framework becomes a tedious job today. It is because a variety of options caters to different project requirements. However, picking any framework does not do the job. It calls for a proper set of knowledge and critical aspects to determine whether the framework is suitable for your business or not. Two such fine frameworks that we will discuss today are React and Angular. Although it is difficult to define and declare the best among the two, it is not difficult to analyze which works best in which situations. Isn’t it? On that note, here’s an overview and distinction between the two most loved and preferred Frontend frameworks: React Vs Angular 2022. Having listed some of the significant points, we have tried making a fair comparison between the two. So, React or Angular? Let’s check!"
+  },
+  {
+    "_id": "tn102",
+    "category": "Technology",
+    "title": "Top 3 Online Front End Code Editing Playgrounds",
+    "creator": "Chandresh Patel",
+    "occupation": "CEO and Agile Coach",
+    "date": "Aug 16, 2022",
+    "content": "Although we like the offline web development editor and IDE, we often hate the inconvenience of editing the code and then open the browser to test the changes. Even if you open a browser tab with a test file, you must constantly jump from one editor to another and refresh the tab before any changes are displayed in the output. Hence we tend to work on sites that display output in real time. Conveniently, the editable code and the testable output are displayed sides by the side. Another fun of these online playgrounds is the vast network of web designers and developers who publish code snippets for worldwide reference.1. Dabblet Dabblet’s interface is very simple and not complicated to operate. It is especially suitable for beginners and front end sieges who want to try the latest HTML5 tags and CSS3 styles. A big feature of Dabblet is that you can avoid CSS prefixes when writing code. Because, Lea Verou (the author of the tool) is the author of the CSS- prefixed JavaScript script – prefix-free, and it is certainly logical for Dabblet to have this feature. Switching between HTML and CSS code is also very convenient. Click on the tab at the top right of the toolbar. Users can adjust the preview of the front end code according to their habits, and the full-screen preview in the browser will open in the new tab. Dabblet supports logging in with a Github account. The code snippet can be saved either anonymously or in the user’s Github: gist so that users can embed the code snippet into their site or share it with others. 2.Thimble Mozilla’s HTML/CSS online interactive learning site, Thimble: Edit on the left, live preview on the right, with lots of real-world examples. The site is part of Mozilla’s recently launched Webmaker program, designed to help regular users learn HTML and CSS online. Thimble provides a two-panel design with code editing with syntax highlighting on the left and a web page preview in real time on the right. If the user is satisfied with the results, it can be published by the blue “Publish” button at the top right. Share your design with your friends via the Twitter Post button provided. 3. JSFiddle JSFiddle is a veteran online JavaScript code debugging tool. Support JavaScript CSS, HTML code visual online debugging tools, support a variety of applications, a variety of mainstream frameworks, very convenient to use, but also can be debugged results directly embedded in other web pages with very simple pages. In addition to debugging code, you can easily post to the community, forum or social media to share or ask questions with friends. A lot of different class libraries are integrated for everyone to choose."
+  },
+  {
+    "_id": "tn103",
+    "category": "Technology",
+    "title": "Front End Developer Responsibilities: What Does a Front End Developer Do?",
+    "creator": "Kiran Bhatt",
+    "occupation": "Technical Writer",
+    "date": "Sep 21 2020",
+    "content": "A front end developer is responsible for linking the world of design as well as technology together. Front end web developer is responsible for client-side development for creating HTML, CSS, and JavaScript for developing web applications and effective interaction between the product or service. In general, everything you see, use, or click on a website to retrieve specific information is a front end developer’s work. Content, button, design layout, images, navigation, and internal linking are closely connected with the front end developer responsibilities. A front end developer’s role is to make sure a user can access the website without any hassle or further guidance at his convenience. There are chances that a user may access your website from various platforms and browsers in today’s digital world, so all the possibilities should be comprehensively covered without any bugs or errors from the front end side."
+  },
+  {
+    "_id": "tn104",
+    "category": "Technology",
+    "title": "Understanding how Atomic Design is used in React Native",
+    "creator": "Nitish Sharma",
+    "occupation": "Frontend Developer",
+    "date": "Aug 31 2022",
+    "content": "Atomic Design is a specific way of organizing the components of a project; it is directly inspired by Atomic concepts of chemistry, hence the name. Atomic Design takes inspiration from the concept of an atom being the smallest unit, followed by a molecule being the combination of atoms, and, finally, organisms being made of molecules. To take an example, atoms specify the smallest components, like buttons and inputs. Molecules signify the combination of these atoms (e.g., forms). The entire page that consists of these molecules can be considered the organism, comprised of all elements.In essence, Atomic Design is used to build user interfaces in a modular manner, with a primary focus on creating components. Now that we understand how Atomic Design came about, how do frontend engineers apply this concept in their project? Let’s take a look at how to implement Atomic Design principles to better organize components and pages in React Native projects. To follow along, you should be familiar with the basics of React Native, including JSX, components (class and functional), and styling. This guide assumes you’ve already done the basic setup for your app."
+  },
+  {
+    "_id": "tn105",
+    "category": "Technology",
+    "title": "Understanding primitive data types in Rust",
+    "creator": "Victor Jonah",
+    "occupation": "Software Developer",
+    "date": "Aug 3 2022 ",
+    "content": "Rust describes itself as a systems programming language that runs blazingly fast, prevents all crashes, and eliminates data races. It is good in memory efficiency because it has no runtime or garbage collector. For this and many other reasons, Rust is a popular and well-loved programming language. Right now, this programming language and its community are relatively young. This means there are ongoing developments to add, improve, and stabilize various features, methods, and trait implementations.You can use Rust comfortably with a simple command line interface (CLI), WebAssembly (Wasm), Networking, and Embedded. People mostly like to talk about if Rust is worth learning or has a steep learning curve. But ultimately, it is up to each individual to determine if it is worth learning for your personal needs or not. Of course, there are most certainly things to note that set Rust"
+  },
+  {
+    "_id": "en201",
+    "category": "Entertainment",
+    "title": "Alia Bhatt reveals how she will react if a girl tries to hit on her boyfriend Ranbir Kapoor",
+    "creator": "Bollywood Blogger ",
+    "occupation": "Reporter",
+    "date": "Mar 25 2019",
+    "content": "Alia Bhatt and Ranveer Singh were at their candid best at the trailer launch of their upcoming film, Gully Boy. The trailer of the film is captivating and celebs and fans can’t stop going gaga over Ranveer and Alia. Zoya Akhtar’s Gully Boy is based on rapper Divine’s life and Alia Bhatt plays the role of his love interest in the film. In the trailer, Alia is seen hitting a bottle on another girl’s head for getting close to her boyfriend. In the dialogue in the scene, she explains that she will beat anyone trying to make a move on her boyfriend. At the trailer launch, Alia was asked if in real-life, she will hit a girl if she tries to get close to her boyfriend. Alia said, “Abhi tak to nahi, par zindagi baki hai, par shayad kabhi nahi karungi kyunki I am non-violent.” (Not yet and may never hit someone as I am non-violent). She added that in her head she may think about it. Ranveer Singh then teased her by saying her dialogue from the film."
+  },
+  {
+    "_id": "en202",
+    "category": "Entertainment",
+    "title": "Deepika Padukone looks jaw droppingly stunning in latest photos",
+    "creator": "Bollywood Blogger",
+    "occupation": "Reporter",
+    "date": "Jan 13 2019 ",
+    "content": "Deepika Padukone never fails to impress us with her style. The stunning actress is an epitome of grace and charm. Deepika is the highest paid actress in the country today and has made it to the Top 5 of Forbes List of Richest Indian Celebs. The actor was featured in TIME magazine’s 100 Most Influential People List and is one of the few Indian actors to have attended coveted events abroad. Deepika Padukone was spotted at the airport two days ago looking fabulous in an all-black look. The actress is in New York City for a work commitment and her makeup artist shared several photos of Deepika on his Instagram account. Deepika looks breathtakingly beautiful in the snaps. Dewy makeup and soft curls accentuate her look. The actress took a sabbatical last year after the release of Padmaavat to replenish emotionally. She, however, shot for multiple commercials and magazine covers in 2018. It is not clear as to whether Deepika is shooting for a magazine cover in New York today."
+  },
+  {
+    "_id": "en203",
+    "category": "Entertainment",
+    "title": "Priyanka Chopra shares loving photo of husband Nick Jonas as he is named GQ’s Most Stylish Man of 2018",
+    "creator": "Saurav Sharma",
+    "occupation": "Reporter",
+    "date": "Dec 24 2018",
+    "content": "Priyanka Chopra shared a loving photo with husband Nick Jonas as he is named GQ’s Most Stylish Man of 2018. Out of 64 best dressed men, Nick Jonas has been voted the best dressed. In the semi-finals, Dwayne Johnson conceded defeat and shared a hilarious post, “The @GQMagazine’s Most Stylish Man of 2018 comes down to big newlywed @nickjonas and the big, brown, bald dude - who’s divorced.” Priyanka Chopra congratulated husband Nick Jonas as she gave him a peck. She posted, “Honoured to be kissing the most stylish man on the planet.. may the style Gods always shine down upon u my love  #gqmoststylishman@nickjonas. Nick Jonas also shared a throwback photo and wrote that he does not take this honour lightly. “From back then to now. I’ve been focused on one thing, and one thing only... being stylish. Not just stylish... being the MOST stylish, and even though it took over 26 years I’m really happy to finally be recognized for this tireless commitment to being stylish. @gq thank you... and you’re welcome. To my stylist @avoyermagyanthank you... and you’re welcome.”"
+  },
+  {
+    "_id": "en204",
+    "category": "Entertainment",
+    "title": "Indian Idol 10: Salman Ali lifts the trophy and wins prize money of Rs 25 Lakhs",
+    "creator": "Pankaj Bhargava",
+    "occupation": "Reporter",
+    "date": "Dec 24 2018",
+    "content": "The winner of Indian Idol 10 was declared in the show. Salman Ali won the show and Neha Kakkar and Vishal Dadlani announced the winner. Salman took home the trophy and the prize money of Rs. 25 lakhs. Team of Zero made an appearance on the show. Impressed by his performance, Shah Rukh Khan got Salman to sing ‘Sajda’ from his film, My Name is Khan and he lip-synced to the song. Salman has been a favourite since the beginning and is loved by the audience. He got 2 crore votes in the finale episode. He hails from Mewat in Haryana. Shah Rukh Khan, Anushka Sharma and Katrina Kaif loved all the performances of the contestants. Other finalists were Nitin Kumar, Ankush Bharadwaj, Neelanjana Ray and Vibhor Parashar. Ankush Bhardwaj and Neelanjana Ray were declared first and 2nd runners-up, respectively. Vibhor Parashar performed with Alka Yagnik to ‘Agar Tum Saath Ho’."
+  },
+  {
+    "_id": "en205",
+    "category": "Entertainment",
+    "title": "Ranveer Singh on working with Arjun Kapoor again: I miss him a lot; Baba’s become too busy for me",
+    "creator": "Meenakshi Joshi",
+    "occupation": "Reporter",
+    "date": "Dec 24, 2018",
+    "content": "Ranveer Singh has been on a promotional spree for his next release, Simmba. Simmba, directed by Rohit Shetty will see Ranveer play the role of a badass cop, Sangram Bhalerao. The trailer and the songs of the film has been loved by the audience and it promises to be an entertainer. Sara Ali Khan plays the female lead in the film. Ranveer and Sara promoted the film on Salman Khan’s show Bigg Boss today. Ranveer also connected with his fans on Twitter and answered some questions. Ranveer was asked about his physical transformations for films, favourite food and about his next film, Gully Boy by fans. Ranveer was asked about working with his close friend Arjun Kapoor again by a fan. “When are you coming back with Arjun Kapoor? We miss Ranjun #AskSimmba,” and Ranveer replied, “even i miss him alot. baba’s become too busy for me . focusing hard on Panipat ma boiz gonna kill it”. Arjun Kapoor’s next project will be Ashutosh Gowariker’s Panipat. Arjun has shaved his head and will sport a moustache in the film."
+  },
+  {
+    "_id": "cm301",
+    "category": "Community",
+    "title": "Using Lichess's Public Data To Find The Best Chess 960 Position",
+    "creator": "Rdubwiley",
+    "occupation": "Backend Developer",
+    "date": "Aug 27 2022",
+    "content": "The first instinct to compare Chess 960 positions would be to use an engine evaluation at high depth and pick whichever starting position is closest to 0.0. However, this comes with serious limitations. A dead-even computer evaluation can mean many things for players: a theoretical endgame that ends in a draw, a sharp position that gives chances to both players but is a draw with perfect play, a strong attack for humans but with perfect computer defense can be met, etc. So what's a more human way to rank 960 starting positions? The criteria I came up with: 1. starting positions that give close to equal chances to both players 2. people hate draws so less of that. One could look through all of the 960 starting positions and do evaluations, but a much simpler way is to let people play out a bunch of these positions and see where they end up. Fortunately, Lichess puts all of their variant games in an open database and we can aggregate a few months together to get a sufficient dataset."
+  },
+  {
+    "_id": "cm302",
+    "category": "Community",
+    "title": "Developing a multi-lingual chatbot for ServiceNow using AI and NLP",
+    "creator": "Danturchin Astound",
+    "occupation": "Chief Product Officer",
+    "date": "Feb 27 2022",
+    "content": "Join the 'Future of AI in IT' meetup for an event where we'll develop a multi-lingual chatbot integrated with ServiceNow and Neva using NLP in an hour.The chatbot can be used to automate routine service requests like password resets and system access. Bot expert Ashish Kumar will demonstrate how to use Google Translate APIs plus Slack using Neva NLP and AI plus ServiceNow for workflow and incident management.Register here: Developing a multi-lingual chatbot for IT support using NLP - The Future of AI in IT (Palo Alto, CA) - Meetup Details:Date: Thursday, October 26 Time: noon EST Location: live voice and video streaming or Menlo Park, CA Duration: 60 minutes Cost: Free (RSVP required)"
+  },
+  {
+    "_id": "cm303",
+    "category": "Community",
+    "title": "How to Build Community On Your Blog",
+    "creator": "Melyssa Griffin",
+    "occupation": "Blogger",
+    "date": "Sep 2 2022",
+    "content": "When I started my blog, I felt like I was publishing blog posts that immediately vanished into thin air. No one read them. No one commented. My Facebook page was just a symphony of crickets and my Twitter had like 3 followers (one was my mom. I’m serious.). But over time, things started to pick up and suddenly I was making new friends, getting comments that were more insightful than the blog post they were left on, and really feeling a sense of community with my readers. Today, I’m sharing what worked for me as well as my tips for how to build community on your blog. Be Yourself. Aww isn’t that cute advice? No, but really. I see lots of blogs with great ideas and neat content, but they write their posts as if they’re drafting a textbook. I barely read my textbooks in school (sorry mom and dad) and I definitely don’t want to read them now. Write like you normally speak. Share your opinions. Be personable. Imagine your readers are sitting across from you at a coffee shop. What would you say? Also, punctuation is your friend! Reinvent it. Ohmygod. YOU.can.write.like.THIS."
+  },
+  {
+    "_id": "cm304",
+    "category": "Community",
+    "title": "Binance to stop supporting USDC, the second largest stablecoin",
+    "creator": "Manish Singh",
+    "occupation": "CEO of Binance",
+    "date": "Sep 6 2022",
+    "content": "Binance, the issuer of the world’s third-largest stablecoin, said on Monday it will convert customers’ holdings in three rival stablecoins USD Coin (USDC), Pax Dollar (USDP) and True USD (TUSD) into its own stablecoin (BUSD) on September 29 to “enhance liquidity and capital-efficiency for users” in a move that has baffled many enthusiasts. As a result of the move, the world’s largest crypto exchange said it will remove spot, future and margin trading with USDC, USDP and TUSD pairs. “This will not affect users’ choice of withdrawal: Users will continue to be able to withdraw funds in USDC, USDP and TUSD at a 1:1 ratio to their BUSD-denominated account balance,” said Binance in a blog post. Issued by Circle — a $9 billion firm that counts BlackRock, Fidelity, FTX and Accel among its backers — USDC is the second-largest stablecoin with a market cap of over $50 billion. The stablecoin is used in transactions worth over $5.5 billion a day, according to data from CoinMarketCap."
+  },
+  {
+    "_id": "cm305",
+    "category": "Community",
+    "title": "Cymulate snaps up $70M to help cybersecurity teams stress test their networks with attack simulations",
+    "creator": "Ingrid Lunden",
+    "occupation": "Reporter",
+    "date": "Sep 6 2022",
+    "content": "The cost of cybercrime has been growing at an alarming rate of 15% per year, projected to reach $10.5 trillion by 2025. To cope with the challenges that this poses, organizations are turning to a growing range of AI-powered tools to supplement their existing security software and the work of their security teams. Today, a startup called Cymulate — which has built a platform to help those teams automatically and continuously stress test their networks against potential attacks with simulations, and provide guidance on how to improve their systems to ward off real attacks — is announcing a significant round of growth funding after seeing strong demand for its tools. The startup — founded in Tel Aviv, with a second base in New York — has raised $70 million, a Series D that it will be using to continue expanding globally and investing in expanding its technology (both organically and potentially through acquisitions)."
+  }
+]
