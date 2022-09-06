@@ -12,9 +12,9 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div className="max-w-6xl mx-auto">
       <Banner></Banner>
-      <BlogsPart></BlogsPart>
+      <BlogsPart blogs={allBlogs}></BlogsPart>
     </div>
   );
 };
