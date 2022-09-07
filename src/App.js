@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import CreateBlog from "./Components/BlogsComponents/CreateBlog";
 import EachBlogDetails from "./Components/BlogsComponents/EachBlogDetails";
 import Community from "./Components/Community/Community";
 import Entertainment from "./Components/Entertainment/Entertainment";
@@ -13,6 +14,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/createBlog" element={<CreateBlog></CreateBlog>}></Route>
         <Route path="/technology" element={<Technology></Technology>}></Route>
         <Route
           path="/entertainment"

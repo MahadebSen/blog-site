@@ -11,10 +11,8 @@ const EachBlogDetails = () => {
       .then((data) => setBlog(data.filter((item) => item._id === params.id)));
   }, [params]);
 
-  console.log(blog);
-
   return (
-    <div>
+    <div className="max-w-6xl mx-auto">
       {blog.map((item) => (
         <div className="mx-10 my-12">
           <p className="text-center text-3xl">{item.title}</p>
@@ -23,7 +21,7 @@ const EachBlogDetails = () => {
             <p className=" hidden md:block">|</p>
             <p>{item.occupation}</p>
           </div>
-          <div className="mx-5">
+          <div className="mx-5 text-[#cbcdd2]">
             <p>{item.content}</p>
           </div>
         </div>

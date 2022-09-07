@@ -23,9 +23,28 @@ const BlogsPart = ({ blogs }) => {
     setCommunity(communityBlogs);
   }, [blogs]);
 
+  const handleSearch = async (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div className="my-5 mx-10">
       <p className="text-3xl text-center">Blogs</p>
+
+      <form
+        onSubmit={handleSearch}
+        className="flex items-center justify-center flex-row gap-3 my-12"
+      >
+        <input
+          className="h-8 rounded-md px-3 text-black"
+          type="text"
+          placeholder="Search by name"
+        />
+        <button className="bg-[#7367f0] text-sm px-3 py-2 rounded-md">
+          Search
+        </button>
+      </form>
+
       <div className="my-7">
         <div className="my-5">
           <div className="flex flex-row gap-3 items-center">
