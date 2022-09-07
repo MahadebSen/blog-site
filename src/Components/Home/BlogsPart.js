@@ -5,6 +5,8 @@ const BlogsPart = ({ blogs }) => {
   const [technology, setTechnology] = useState([]);
   const [entertainment, setEntertainment] = useState([]);
   const [community, setCommunity] = useState([]);
+  const [searchState, setSearchState] = useState(false);
+  const [searchBlogs, setSearchBlogs] = useState([]);
 
   useEffect(() => {
     const technologyBlogs = blogs
@@ -25,6 +27,11 @@ const BlogsPart = ({ blogs }) => {
 
   const handleSearch = async (e) => {
     e.preventDefault();
+    setSearchState(true);
+    const searchText = await e.target.searchText.value;
+    const searchItems = blogs.filter((item) => item.title === searchText);
+    setSearchBlogs(searchItems);
+    e.target.searchText.value = "";
   };
 
   return (
@@ -38,6 +45,7 @@ const BlogsPart = ({ blogs }) => {
         <input
           className="h-8 rounded-md px-3 text-black"
           type="text"
+          name="searchText"
           placeholder="Search by name"
         />
         <button className="bg-[#7367f0] text-sm px-3 py-2 rounded-md">
@@ -45,43 +53,51 @@ const BlogsPart = ({ blogs }) => {
         </button>
       </form>
 
-      <div className="my-7">
-        <div className="my-5">
-          <div className="flex flex-row gap-3 items-center">
-            <p className="text-lg">Technology blogs</p>
-            <div className="bg-white w-32 h-[1px]"></div>
-          </div>
-          <div className="mt-4 flex flex-col gap-3">
-            {technology.map((item) => (
-              <EachBlogView key={item._id} item={item}></EachBlogView>
-            ))}
-          </div>
+      {searchState ? (
+        <div className="mt-4 flex flex-col gap-3">
+          {searchBlogs.map((item) => (
+            <EachBlogView key={item._id} item={item}></EachBlogView>
+          ))}
         </div>
+      ) : (
+        <div className="my-7">
+          <div className="my-5">
+            <div className="flex flex-row gap-3 items-center">
+              <p className="text-lg">Technology blogs</p>
+              <div className="bg-white w-32 h-[1px]"></div>
+            </div>
+            <div className="mt-4 flex flex-col gap-3">
+              {technology.map((item) => (
+                <EachBlogView key={item._id} item={item}></EachBlogView>
+              ))}
+            </div>
+          </div>
 
-        <div className="my-5">
-          <div className="flex flex-row gap-3 items-center">
-            <p className="text-lg">Entertainment blogs</p>
-            <div className="bg-white w-32 h-[1px]"></div>
+          <div className="my-5">
+            <div className="flex flex-row gap-3 items-center">
+              <p className="text-lg">Entertainment blogs</p>
+              <div className="bg-white w-32 h-[1px]"></div>
+            </div>
+            <div className="mt-4 flex flex-col gap-3">
+              {entertainment.map((item) => (
+                <EachBlogView key={item._id} item={item}></EachBlogView>
+              ))}
+            </div>
           </div>
-          <div className="mt-4 flex flex-col gap-3">
-            {entertainment.map((item) => (
-              <EachBlogView key={item._id} item={item}></EachBlogView>
-            ))}
-          </div>
-        </div>
 
-        <div className="my-5">
-          <div className="flex flex-row gap-3 items-center">
-            <p className="text-lg">Community blogs</p>
-            <div className="bg-white w-32 h-[1px]"></div>
-          </div>
-          <div className="mt-4 flex flex-col gap-3">
-            {community.map((item) => (
-              <EachBlogView key={item._id} item={item}></EachBlogView>
-            ))}
+          <div className="my-5">
+            <div className="flex flex-row gap-3 items-center">
+              <p className="text-lg">Community blogs</p>
+              <div className="bg-white w-32 h-[1px]"></div>
+            </div>
+            <div className="mt-4 flex flex-col gap-3">
+              {community.map((item) => (
+                <EachBlogView key={item._id} item={item}></EachBlogView>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };
