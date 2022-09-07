@@ -5,11 +5,9 @@ const Technology = () => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch("FakeBlogs/FakeBlogs.json")
-      .then((res) => res.json())
-      .then((data) =>
-        setBlogs(data.filter((item) => item.category === "Technology"))
-      );
+    const localData = localStorage.getItem("blogData");
+    const parseData = JSON.parse(localData);
+    setBlogs(parseData.filter((item) => item.category === "Technology"));
   }, []);
 
   return (
