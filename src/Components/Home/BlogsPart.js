@@ -11,16 +11,19 @@ const BlogsPart = ({ blogs }) => {
   useEffect(() => {
     const technologyBlogs = blogs
       .filter((item) => item.category === "Technology")
+      .reverse()
       .slice(0, 3);
     setTechnology(technologyBlogs);
 
     const entertainmentBlogs = blogs
       .filter((item) => item.category === "Entertainment")
+      .reverse()
       .slice(0, 3);
     setEntertainment(entertainmentBlogs);
 
     const communityBlogs = blogs
       .filter((item) => item.category === "Community")
+      .reverse()
       .slice(0, 3);
     setCommunity(communityBlogs);
   }, [blogs]);

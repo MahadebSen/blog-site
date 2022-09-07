@@ -5,11 +5,21 @@ import BlogsPart from "./BlogsPart";
 const Home = () => {
   const [allBlogs, setAllBlogs] = useState([]);
 
+  const blogData = localStorage.getItem("blogData");
+
   useEffect(() => {
-    fetch("FakeBlogs/FakeBlogs.json")
-      .then((res) => res.json())
-      .then((data) => setAllBlogs(data));
-  }, []);
+    if (blogData) {
+      const localData = JSON.parse(blogData);
+      setAllBlogs(localData);
+    } else {
+      fetch("FakeBlogs/FakeBlogs.json")
+        .then((res) => res.json())
+        .then((data) => {
+          setAllBlogs(data);
+          localStorage.setItem("blogData", JSON.stringify(data));
+        });
+    }
+  }, [blogData]);
 
   return (
     <div className="max-w-6xl mx-auto">

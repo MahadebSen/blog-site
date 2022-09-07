@@ -6,10 +6,12 @@ const EachBlogDetails = () => {
   const [blog, setBlog] = useState([]);
 
   useEffect(() => {
-    fetch("FakeBlogs/FakeBlogs.json")
-      .then((res) => res.json())
-      .then((data) => setBlog(data.filter((item) => item._id === params.id)));
+    const localData = localStorage.getItem("blogData");
+    const parseData = JSON.parse(localData);
+    setBlog(parseData.filter((item) => item._id === params.id));
   }, [params]);
+
+  console.log(params);
 
   return (
     <div className="max-w-6xl mx-auto">

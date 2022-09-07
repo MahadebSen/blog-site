@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 
 const CreateBlog = () => {
+  const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
     const _id = uuidv4();
@@ -13,8 +15,11 @@ const CreateBlog = () => {
     const date = new Date().toString().split(" ").splice(1, 3).join(" ");
 
     const blog = { _id, creator, occupation, title, category, content, date };
-
-    console.log(blog);
+    const localData = localStorage.getItem("blogData");
+    const parseData = JSON.parse(localData);
+    localStorage.setItem("blogData", JSON.stringify([...parseData, blog]));
+    navigate("/");
+    // console.log(blog);
   };
 
   return (
@@ -36,6 +41,7 @@ const CreateBlog = () => {
                   type="text"
                   id="name"
                   name="name"
+                  required
                   class="w-full bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
@@ -48,6 +54,7 @@ const CreateBlog = () => {
                 <input
                   type="text"
                   name="occupation"
+                  required
                   class="w-full bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
@@ -60,6 +67,7 @@ const CreateBlog = () => {
                 <input
                   type="text"
                   name="title"
+                  required
                   class="w-full bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
@@ -88,6 +96,7 @@ const CreateBlog = () => {
                 <textarea
                   id="message"
                   name="story"
+                  required
                   class="w-full bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 ></textarea>
               </div>
