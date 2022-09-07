@@ -47,6 +47,7 @@ const BlogsPart = ({ blogs }) => {
           type="text"
           name="searchText"
           placeholder="Search by name"
+          required
         />
         <button className="bg-[#7367f0] text-sm px-3 py-2 rounded-md">
           Search
@@ -54,11 +55,15 @@ const BlogsPart = ({ blogs }) => {
       </form>
 
       {searchState ? (
-        <div className="mt-4 flex flex-col gap-3">
-          {searchBlogs.map((item) => (
-            <EachBlogView key={item._id} item={item}></EachBlogView>
-          ))}
-        </div>
+        searchBlogs.length >= 1 ? (
+          <div className="mt-4 flex flex-col gap-3">
+            {searchBlogs.map((item) => (
+              <EachBlogView key={item._id} item={item}></EachBlogView>
+            ))}
+          </div>
+        ) : (
+          <p className="text-center my-5 text-white">No result found</p>
+        )
       ) : (
         <div className="my-7">
           <div className="my-5">
